@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('#currentDay').text(moment().format('dddd, MMMM Do YYYY'));
-    for (var i = 0; i < 24; i++) {
+    for (var i = 7; i < 24; i++) {
         var hourNumber = moment(i, 'HH').format('h:mm a');
         $('#schedule').append(
             '<div class="row hour">' +
