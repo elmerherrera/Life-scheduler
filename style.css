@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-image: url(Matrix.jpg);
 }
 
 textarea {
@@ -16,7 +17,7 @@ textarea {
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: rgb(255, 254, 254);
   border-radius: 0;
   border-bottom: 10px solid black;
 }
@@ -53,7 +54,7 @@ textarea {
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #30df00;
   color: white;
 }
 
